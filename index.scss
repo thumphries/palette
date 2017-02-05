@@ -46,23 +46,11 @@ body {
 }
 
 #header {
-  /* flex not so portable */
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: flex;
-
-  -webkit-justify-content: space-between;
-  -moz-justify-content: space-between;
-  justify-content: space-between;
-
-  -webkit-flex-wrap: wrap;
-  flex-wrap: wrap;
-
   font-weight: bold;
   font-size: 2em;
   font-style: italic;
   color: $navy3;
+  text-align: center;
 }
 
 #logo {
@@ -74,10 +62,20 @@ body {
   background-color: $salmon2;
   color: $navy3;
   display: inline-block;
-
 }
 
 nav {
+  -webkit-display: flex;
+  -moz-display: flex;
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  flex-wrap: wrap;
+
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center;
 }
 
 nav span {
@@ -87,6 +85,7 @@ nav span {
   padding-bottom: 0.5em;
   display: inline-block;
   margin-bottom: 0.3em;
+  margin-left: 0.3em;
 }
 
 nav a {
