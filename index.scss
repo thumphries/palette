@@ -21,6 +21,7 @@ $blue1: $color3;
 $blue2: $color4;
 $royal1: $color5;
 $royal2: $color6;
+$royal3: #8ca3d0;
 $purple1: $color7;
 $purple2: $color8;
 $pink1: $color9;
@@ -33,14 +34,36 @@ $yellow1: $color15;
 
 body {
   background-color: $navy1;
-  color: $royal1;
+  color: $royal3;
   font-family: "Avenir", "Helventica Neue", sans-serif;
+  font-size: 160%;
 }
 
 
 @media screen and (min-width: 41em) {
   #container {
-    max-width: 50em;
+    max-width: 41em;
+  }
+}
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+  body {
+    font-size: 120%;
+  }
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+  body {
+    font-size: 120%;
   }
 }
 
