@@ -1,0 +1,88 @@
+body {
+  background-color: #010e26;
+  color: #1b3e85;
+  font-family: "Avenir", "Helventica Neue", sans-serif; }
+
+#container {
+  max-width: 50em;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #011539; }
+
+#header {
+  font-weight: bold;
+  font-size: 2em;
+  font-style: italic;
+  color: #011944;
+  text-align: center; }
+
+#logo {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-bottom: 0.3em;
+  background-color: #fc4953;
+  color: #011944;
+  display: inline-block; }
+
+nav {
+  -webkit-display: flex;
+  -moz-display: flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-justify-content: center;
+  -moz-justify-content: center;
+  justify-content: center; }
+
+nav span {
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  display: inline-block;
+  margin-bottom: 0.3em;
+  margin-left: 0.3em; }
+
+nav a {
+  color: inherit;
+  text-decoration: inherit;
+  font-weight: inherit; }
+
+nav span:nth-child(8n+1) {
+  background-color: #fd945d; }
+
+nav span:nth-child(8n+2) {
+  background-color: #fc6655; }
+
+nav span:nth-child(8n+3) {
+  background-color: #fc4953; }
+
+nav span:nth-child(8n+4) {
+  background-color: #dc3d53; }
+
+nav span:nth-child(8n+5) {
+  background-color: #cc384f; }
+
+nav span:nth-child(8n+6) {
+  background-color: #ab4367; }
+
+nav span:nth-child(8n+7) {
+  background-color: #793c65; }
+
+nav span:nth-child(8n+8) {
+  background-color: #523966; }
+
+#container {
+  margin-top: 2em;
+  padding: 2em;
+  font-size: 1.1em; }
+
+#container a {
+  color: #010e26;
+  background-color: #fd945d;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  text-decoration: none; }
