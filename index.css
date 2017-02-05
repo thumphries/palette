@@ -3,13 +3,15 @@ body {
   color: #1b3e85;
   font-family: "Avenir", "Helventica Neue", sans-serif; }
 
+@media screen and (min-width: 41em) {
+  #container {
+    max-width: 50em; } }
 #container {
-  max-width: 50em;
   margin-left: auto;
   margin-right: auto;
   background-color: #011539; }
 
-#header {
+header {
   font-weight: bold;
   font-size: 2em;
   font-style: italic;
@@ -51,32 +53,33 @@ nav a {
   text-decoration: inherit;
   font-weight: inherit; }
 
-nav span:nth-child(8n+1) {
+header nav span:nth-child(8n+1) {
   background-color: #fd945d; }
 
-nav span:nth-child(8n+2) {
+header nav span:nth-child(8n+2) {
   background-color: #fc6655; }
 
-nav span:nth-child(8n+3) {
+header nav span:nth-child(8n+3) {
   background-color: #fc4953; }
 
-nav span:nth-child(8n+4) {
+header nav span:nth-child(8n+4) {
   background-color: #dc3d53; }
 
-nav span:nth-child(8n+5) {
+header nav span:nth-child(8n+5) {
   background-color: #cc384f; }
 
-nav span:nth-child(8n+6) {
+header nav span:nth-child(8n+6) {
   background-color: #ab4367; }
 
-nav span:nth-child(8n+7) {
+header nav span:nth-child(8n+7) {
   background-color: #793c65; }
 
-nav span:nth-child(8n+8) {
+header nav span:nth-child(8n+8) {
   background-color: #523966; }
 
 #container {
   margin-top: 2em;
+  margin-bottom: 2em;
   padding: 2em;
   font-size: 1.1em; }
 
