@@ -38,14 +38,19 @@ body {
 }
 
 
+@media screen and (min-width: 41em) {
+  #container {
+    max-width: 50em;
+  }
+}
+
 #container {
-  max-width: 50em;
   margin-left: auto;
   margin-right: auto;
   background-color: $navy2;
 }
 
-#header {
+header {
   font-weight: bold;
   font-size: 2em;
   font-style: italic;
@@ -95,40 +100,40 @@ nav a {
 
 }
 
-nav span:nth-child(8n+1) {
+header nav span:nth-child(8n+1) {
   background-color: $color14;
 }
-nav span:nth-child(8n+2) {
+header nav span:nth-child(8n+2) {
   background-color: $color13;
 }
 
-nav span:nth-child(8n+3) {
+header nav span:nth-child(8n+3) {
   background-color: $color12;
 }
 
-nav span:nth-child(8n+4) {
+header nav span:nth-child(8n+4) {
   background-color: $color11;
 }
 
-nav span:nth-child(8n+5) {
+header nav span:nth-child(8n+5) {
   background-color: $color10;
 }
 
-nav span:nth-child(8n+6) {
+header nav span:nth-child(8n+6) {
   background-color: $color9;
 }
 
-nav span:nth-child(8n+7) {
+header nav span:nth-child(8n+7) {
   background-color: $color8;
 }
 
-nav span:nth-child(8n+8) {
+header nav span:nth-child(8n+8) {
   background-color: $color7;
 }
 
-
 #container {
   margin-top: 2em;
+  margin-bottom: 2em;
   padding: 2em;
   font-size: 1.1em;
 }
