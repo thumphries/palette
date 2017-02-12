@@ -135,11 +135,10 @@ nav span {
   margin-left: 0.3em;
 }
 
-nav a {
+header a {
   color: inherit;
   text-decoration: inherit;
   font-weight: inherit;
-
 }
 
 header nav span:nth-child(8n+1) {
@@ -193,6 +192,21 @@ pre {
   background-color: $navy1;
 }
 
-.sourceCode {
+.date {
   font-family: "Menlo", "Monaco", monospace;
+}
+
+code {
+  font-family: "Menlo", "Monaco", monospace;
+  overflow: auto;
+  font-size: 0.8em;
+}
+
+pre {
+  font-family: "Menlo", "Monaco", monospace;
+  overflow: auto;
+}
+
+ul:empty::after {
+  content: "Nothing to see here.";
 }
