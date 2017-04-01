@@ -206,3 +206,10 @@ pre {
 ul:empty::after {
   content: "Nothing to see here.";
 }
+
+footer {
+  margin-left: auto;
+  margin-right: auto;
+  color: $royal2;
+  text-align: center;
+}
